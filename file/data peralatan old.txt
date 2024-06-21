@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Peralatan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <a href="../Dasboard/dasboard.html" class="dashboard-link">Dashboard</a>
+      <a href="#" class="active">Data Peralatan</a>
+    </div>
+    <div class="main-content">
+      <h1>Data Peralatan</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>QR CODE</th>
+            <th>NAMA ALAT</th>
+            <th>STATUS</th>
+            <th>JUMLAH PEMBELIAN</th>
+            <th>JUMLAH PENGELUARAN</th>
+            <th>JUMLAH SISA</th>
+            <th>HARGA SATUAN</th>
+            <th>NILAI STOK AKHIR</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><img src="../gambar/QR  code.jpeg" alt="QR Code 1"></td>
+            <td>LAMPU 1L</td>
+            <td class="status-ready">READY</td>
+            <td>100</td>
+            <td>70</td>
+            <td>30</td>
+            <td>RP 100.000</td>
+            <td>RP 3.000.000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><img src="../gambar/QR  code.jpeg" alt="QR Code 2"></td>
+            <td>LAMPU 1L</td>
+            <td class="status-ready">READY</td>
+            <td>100</td>
+            <td>50</td>
+            <td>50</td>
+            <td>RP 100.000</td>
+            <td>RP 5.000.000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><img src="../gambar/QR  code.jpeg" alt="QR Code 3"></td>
+            <td>KABEL LAN</td>
+            <td class="status-ready">READY</td>
+            <td>100</td>
+            <td>40</td>
+            <td>60</td>
+            <td>RP 100.000</td>
+            <td>RP 6.000.000</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><img src="../gambar/QR  code.jpeg" alt="QR Code 4"></td>
+            <td>TICON K2</td>
+            <td class="status-no">NO</td>
+            <td>100</td>
+            <td>100</td>
+            <td>0</td>
+            <td>RP 900.000</td>
+            <td>RP 0</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><img src="../gambar/QR  code.jpeg" alt="QR Code 5"></td>
+            <td>MODUL AC LG</td>
+            <td class="status-no">NO</td>
+            <td>100</td>
+            <td>100</td>
+            <td>0</td>
+            <td>RP 900.000</td>
+            <td>RP 0</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="actions">
+        <a href="../Tambah data/tambah_data.html">
+          <button class="btn-tambah-data">TAMBAH DATA</button>
+        </a>
+        <button class="btn-lihat-laporan">LIHAT LAPORAN</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
